@@ -15,7 +15,7 @@ jobs:
        with: 
         node-version: 22.x
      - name: install depedences
-       uses: npm install
+       run: npm install
      - name: Build React app
-       uses: npm run build
+       run: npm run build
           
